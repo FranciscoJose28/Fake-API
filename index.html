@@ -9,8 +9,8 @@
 <body>
     <header>
         <input type="text" id="busca" placeholder="Buscar produto">
-        <select id="categorias"></select>
-        <select id="ordenacao">
+        <select id="categorias" onChange="filteredBy()"></select>
+        <select id="ordenacao" onChange="orderingBy()">
             <option selected disabled>--Ordenar por-</option>
             <option value="1">Preço</option>
             <option value="2">Avaliações</option>
